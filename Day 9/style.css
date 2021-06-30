@@ -1,0 +1,40 @@
+body {
+    margin: 1%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    
+    height: 492spx;
+    width: 1092px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(253, 87, 87);
+  }
+  
+  h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 6px;
+    color: blueviolet;
+  }
+  
+  .box {
+    height: 80px;
+    width: 180px;
+    background-color: rgb(17, 83, 1);
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+  }
+  
+  .box:hover {
+    opacity: 0.7;
+  }
+  
+  .bookedSeat {
+    background: rgb(101, 211, 116);
+  }
