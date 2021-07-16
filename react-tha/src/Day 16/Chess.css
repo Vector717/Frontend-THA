@@ -1,0 +1,26 @@
+
+  
+  .Chess {
+    border: 24px solid black;
+    height: 47vh;
+    width: 22.5vw;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+  }
+  
+  .Square {
+    height: 36px;
+    width: 36.5px;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .odd:nth-child(odd) .Square:nth-child(odd) {
+    background: #000;
+  }
+  
+  .even:nth-child(even) .Square:nth-child(even) {
+    background: #000;
+  }
+  /* hello */
