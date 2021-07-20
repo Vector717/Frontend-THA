@@ -1,0 +1,18 @@
+body{
+  background-color: red;
+}.container {
+    border: 20px solid black;
+  }
+  
+  .chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* grid-template-rows: repeat(8, 1fr); */
+    width: 64vh;
+    height: 64vh;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: all ease-in 0.2s;
+    box-sizing: border-box;
+  }
