@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter buttons-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.counter button {
+  border-radius: 15px;
+
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(34, 145, 19);
+  border: 6px solid rgb(53, 9, 12);
+  cursor: pointer;
+  color: lightcyan;
+  font-size: 30px;
+  margin: 15px;
+}
+
+.counter button:hover {
+  border: 1px solid rgb(34, 145, 19);
+  color: rgb(34, 145, 19);
+  background-color: #fff;
+}
